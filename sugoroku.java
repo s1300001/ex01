@@ -12,8 +12,13 @@ public class sugoroku{
         int n1=x.nextInt(6)+1;
         int n2=x.nextInt(6)+1;
         int sum=n1+n2;  
+    
         System.out.println("Die 1:"+n1);
         System.out.println("Die 2:"+n2);
         System.out.println("Total value:"+sum);
+        if(sum>=7){
+            System.out.println(name+" win");
+        }
+        else System.out.println(name+"vlost");
      }
 }
